@@ -11,9 +11,9 @@ from glob import glob
 
 # 옵션 ------------------------------------------------------
 path_search = app_path
-path_out_1 = str(Path(app_path).parent) + "/ExcelTool"
-path_out_2 = str(Path(app_path).parent) + "/PyCooler"
-path_out_3 = str(Path(app_path).parent) + "/RuleMaker"
+path_out_1 = str(Path(app_path).parent) + "/ExcelTool/qt_resource"
+path_out_2 = str(Path(app_path).parent) + "/PyCooler/qt_resource"
+path_out_3 = str(Path(app_path).parent) + "/RuleMaker/qt_resource"
 
 # print(path_out)
 # as_is = ""
