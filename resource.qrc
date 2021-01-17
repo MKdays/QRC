@@ -1,5 +1,6 @@
 <RCC>
   <qresource prefix="__resource__">
+    <file>image/code.png</file>
     <file>image/icecube.png</file>
     <file>image/icon_main.png</file>
     <file>image/icon_sub.png</file>
