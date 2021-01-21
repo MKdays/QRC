@@ -20,12 +20,12 @@ path_out = [
 
 work_list = glob("*.qrc") + glob("*.ui")
 
-def ui_convert(raw):
+def ui_convert(raw): #ui 파일을 py로 변환
     for i in path_out:
         os.system(f"pyside2-uic \"{raw}\" -o \"{i}/{Path(raw).stem}.py\"")
         print(f"\"{i}/{Path(raw).stem}.py\"")
 
-def qrc_convert(raw):
+def qrc_convert(raw): #qrc 파일을 py로 변환
     for i in path_out:
         os.system(f"pyside2-rcc \"{raw}\" -o \"{i}/{Path(raw).stem}.py\"")
         print(f"\"{i}/{Path(raw).stem}.py\"")
