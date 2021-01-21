@@ -1,5 +1,5 @@
 # \_\_resource\_\_
-[![](https://img.shields.io/badge/License-GPLv3-red?style=flat-square)](LICENSE.txt)
+[![](https://img.shields.io/badge/License-MIT-red?style=flat-square)](LICENSE.txt)
 
 
 
